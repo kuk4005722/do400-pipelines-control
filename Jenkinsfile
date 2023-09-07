@@ -10,7 +10,7 @@ node('nodejs')
 		sh 'node ./backend/test.js'    
 	}    
 
-	stage('Frontend Tests') 
+	stage('Frontend Test') 
 	{
 		sh 'node ./frontend/test.js'    
 	}
